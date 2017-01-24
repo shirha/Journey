@@ -13,3 +13,5 @@ suit    rank →  A    2    3    4    5    6    7    8    9    T    J    Q    K
  S  0111....    q    r    s    t    u    v    w    x    y    z    {    |    }
 
 ```
+
+<script async src="//jsfiddle.net/shirha/vw7yk9m6/17/embed/"></script>
