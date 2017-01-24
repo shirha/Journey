@@ -1,3 +1,3 @@
 ## The Tableau Helpers
 
-<layout.png>
+<img src='layout.png'>
