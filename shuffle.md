@@ -1,6 +1,8 @@
 
 ## Microsoft Shuffle
 
+https://jsfiddle.net/shirha/r0rq1L1b/
+
 http://www.solitairelaboratory.com/mshuffle.txt
 
 http://rosettacode.org/wiki/Linear_congruential_generator
