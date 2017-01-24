@@ -1,4 +1,4 @@
-# The Deck
+# The freecell-solver Deck
 
 The deck is 52 ascii characters in the range of x41 to x7D.
 
