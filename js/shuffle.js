@@ -1,19 +1,11 @@
-var toStr = function(rank, suit) {
-    return rank ? ' A23456789TJQK' [rank] + 'DCHS ' [suit] : '  ';
-  },
-  msrank = function(i) {
-    return Math.floor(i / 4);
-  },
-  mssuit = function(i) {
+var mssuit = (i) => {
     var y = i % 4; // swap D & C
     return y === 0 ? 1 : y === 1 ? 0 : y;
   },
-  fcrank = function(r) {
-    return r & 15
-  },
-  fcsuit = function(s) {
-    return s >> 4 & 3
-  };
+  msrank = (i) => Math.floor(i / 4),
+  fcsuit = (s) => s >> 4 & 3,
+  fcrank = (r) => r & 15,
+  toStr = (rank, suit) => rank ? ' A23456789TJQK' [rank] + 'DCHS ' [suit] : '  ';
 
 function shuffle(demo) {
   var seed = demo || Math.floor(Math.random() * 1000000000),
@@ -47,7 +39,9 @@ function message(tableau, sep = '<br>') {
     r > 0 && (flag = false);
     for (c = 0; c < 8; c++) {
       n = tableau[c][r];
-      card = toStr(fcrank(n), fcsuit(n)), card != "  " && (flag = true), msg += card + " ";
+      card = toStr(fcrank(n), fcsuit(n)), 
+        card != "  " && (flag = true), 
+        msg += card + " ";
     }
     msg += sep, r++;
   }
