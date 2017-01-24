@@ -39,7 +39,7 @@ function message(tableau, sep = '<br>') {
     r > 0 && (flag = false);
     for (c = 0; c < 8; c++) {
       n = tableau[c][r],
-        card = toStr(fcrank(n), fcsuit(n)), 
+        card = toStr(rank(n), suit(n)), 
         card != "  " && (flag = true), 
         msg += card + " ";
     }
