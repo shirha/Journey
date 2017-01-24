@@ -2,7 +2,8 @@ var mssuit = (i) => {
     var y = i % 4; // swap D & C
     return y === 0 ? 1 : y === 1 ? 0 : y;
   },
-  msrank = (i) => Math.floor(i / 4),
+//  msrank = (i) => Math.floor(i / 4),
+  msrank = (i) => i >> 2,
   suit = (s) => s >> 4 & 3,
   rank = (r) => r & 15,
   toStr = (rank, suit) => rank ? ' A23456789TJQK' [rank] + 'DCHS ' [suit] : '  ';
