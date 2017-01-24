@@ -1,3 +1,20 @@
+var toStr = function(rank, suit) {
+    return rank ? ' A23456789TJQK' [rank] + 'DCHS ' [suit] : '  ';
+  },
+  msrank = function(i) {
+    return Math.floor(i / 4);
+  },
+  mssuit = function(i) {
+    var y = i % 4; // swap D & C
+    return y === 0 ? 1 : y === 1 ? 0 : y;
+  },
+  fcrank = function(r) {
+    return r & 15
+  },
+  fcsuit = function(s) {
+    return s >> 4 & 3
+  };
+
 function shuffle(demo) {
   var seed = demo || Math.floor(Math.random() * 1000000000),
     gameno = seed,
