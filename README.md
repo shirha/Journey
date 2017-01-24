@@ -1,6 +1,6 @@
 # Journey
 
-* [The Deck](deck.md)
+* [Deck](deck.md)
 * [Shuffle](shuffle.md)
 * [Generate](gen.md) 
 * [autoplay](auto.md)
