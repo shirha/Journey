@@ -3,7 +3,7 @@
 * [The Microsoft Shuffle](shuffle.md)
 * [The Many Faces of a Deck](deck.md)
 * [Generate All Possible Moves](gen.md) 
-* [What is a safe Autoplay?](auto.md)
+* [A Safe Autoplay](auto.md)
 * [Create an Entry Key](entry.md)
 * [The Position Hash Gate](pos.md)
 * [It All Depends on the Star Routine](star.md)
