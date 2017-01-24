@@ -3,8 +3,8 @@ var mssuit = (i) => {
     return y === 0 ? 1 : y === 1 ? 0 : y;
   },
   msrank = (i) => Math.floor(i / 4),
-  fcsuit = (s) => s >> 4 & 3,
-  fcrank = (r) => r & 15,
+  suit = (s) => s >> 4 & 3,
+  rank = (r) => r & 15,
   toStr = (rank, suit) => rank ? ' A23456789TJQK' [rank] + 'DCHS ' [suit] : '  ';
 
 function shuffle(demo) {
@@ -38,8 +38,8 @@ function message(tableau, sep = '<br>') {
   for (msg = "", flag = true, r = 0; flag;) {
     r > 0 && (flag = false);
     for (c = 0; c < 8; c++) {
-      n = tableau[c][r];
-      card = toStr(fcrank(n), fcsuit(n)), 
+      n = tableau[c][r],
+        card = toStr(fcrank(n), fcsuit(n)), 
         card != "  " && (flag = true), 
         msg += card + " ";
     }
