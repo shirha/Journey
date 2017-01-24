@@ -1,6 +1,6 @@
 # The Deck
 
-The deck is a range of ascii characters in the range of x41 to x7D.
+The deck is 52 ascii characters in the range of x41 to x7D.
 
 ```
                                ASCII code table
