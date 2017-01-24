@@ -7,6 +7,7 @@
 * [Create an Entry Key](entry.md)
 * [Can I enter the Position Hash?](pos.md)
 * [It All Depends on the Star Routine](star.md)
+* [In Search of the Four Kings](solution.md)
 
 ---
 
