@@ -34,14 +34,14 @@ function shuffle(demo) {
 }
 
 function message(tableau, sep = '<br>') {
-  var msg, flag, r, c, card;
+  var msg, flag, r, c, card, n;
   for (msg = "", flag = true, r = 0; flag;) {
     r > 0 && (flag = false);
     for (c = 0; c < 8; c++) {
       n = tableau[c][r],
-        card = toStr(rank(n), suit(n)), 
-        card != "  " && (flag = true), 
-        msg += card + " ";
+      card = toStr(rank(n), suit(n)), 
+      card != "  " && (flag = true), 
+      msg += card + " ";
     }
     msg += sep, r++;
   }
