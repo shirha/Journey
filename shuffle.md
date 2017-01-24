@@ -1,0 +1,6 @@
+
+## Microsoft Shuffle
+
+http://www.solitairelaboratory.com/mshuffle.txt
+
+Microsoft cards number from 0 to 51
