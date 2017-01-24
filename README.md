@@ -1,4 +1,4 @@
-# Journey
+# The Journey
 
 * [The many faces of the Deck](deck.md)
 * [The Microsoft Shuffle](shuffle.md)
