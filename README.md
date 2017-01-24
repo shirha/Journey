@@ -1,7 +1,7 @@
 # The Journey
 
-* [The many faces of the Deck](deck.md)
 * [The Microsoft Shuffle](shuffle.md)
+* [The Many Faces of a Deck](deck.md)
 * [Generate All Possible Moves](gen.md) 
 * [What is a safe Autoplay?](auto.md)
 * [Create an Entry Key](entry.md)
