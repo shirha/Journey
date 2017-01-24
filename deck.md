@@ -14,4 +14,4 @@ suit    rank →  A    2    3    4    5    6    7    8    9    T    J    Q    K
 
 ```
 
-http://jsfiddle.net/shirha/vw7yk9m6/17/
+http://jsfiddle.net/shirha/vw7yk9m6/
