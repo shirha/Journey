@@ -19,9 +19,9 @@ The deck begins with Aces and ends with Kings and occupies the first 52 ascii co
 
 (fig.2)
 
-| 0 | 1 | 2 | 3 | 4 |  | 47 | 48 | 49 | 50 | 51 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| AC | AD | AH | AS | 2C | · · · | QS | KC | KD | kH | KS |
+| 0   | 1   | 2   | 3   | 4   |       | 47  | 48  | 49  | 50  | 51  |
+| --- | --- | --- | --- | --- | ----- | --- | --- | --- | --- | --- |
+| AC  | AD  | AH  | AS  | 2C  | · · · | QS  | KC  | KD  | kH  | KS  |
 
 The Freecell Solver stores the randomly sorted deck into a Tableau and transforms the cards to code points 65 thru 125. The bits for suit and rank are swap and bit 1 is set to 1 placing the deck in the displayable range of the ascii code points. String keys for the Position hash are created with these bytes. Finally, the Clubs and Diamonds are swapped making the test
 
@@ -49,7 +49,7 @@ Also note that now you can add 1 to the card and get the next card in the sequen
 
 (fig.4)
 ```
-                                        ASCII code table
+                                        <b>ASCII code table</b>
 
 dec  suit   rank →  A    2    3    4    5    6    7    8    9    T    J    Q    K
      ↓  ....0000 0001 0010 0011 0100 0101 0110 0111 1000 1001 1010 1011 1100 1101
