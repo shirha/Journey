@@ -1,4 +1,4 @@
-## The Tableau Helpers
+## The Tableau and it's Helpers
 
 <img src='layout.png'>
 
