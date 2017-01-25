@@ -62,6 +62,8 @@ Also note that now you can add 1 to the card and get the next card in the sequen
 https://jsfiddle.net/shirha/r0rq1L1b/
 
 
+[Freecell Solver sprite sheet](https://github.com/shirha/freecell-mobile/blob/master/i/sheet.png)
+
 
 
 
