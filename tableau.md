@@ -2,11 +2,9 @@
 
 <img src='layout.png'>
 
-(fig.1)
+(fig.1) game#21219
 
 ```
-(new Tableau).init(12129).toString();
-
 KH 6H 5H TD 5D 4C 6S 8D 
 JC 2D 4H 8S KD 7D TC JH 
 QS 2S QH 9D TS 6C KC 7C 
