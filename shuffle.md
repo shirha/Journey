@@ -1,7 +1,7 @@
 
 ## Microsoft Shuffle
 
-http://www.solitairelaboratory.com/mshuffle.txt
+<a http://www.solitairelaboratory.com/mshuffle.txt target="#">Microsoft shuffle</a>
 
 http://rosettacode.org/wiki/Linear_congruential_generator
 
