@@ -18,11 +18,10 @@ The Microsoft deck byte layout is as follows. The suits occupy bits 6 and 7 and 
 The deck begins with Aces and ends with Kings and occupies the first 52 ascii code points.
 
 (fig.2)
-<table>
-<tr><th>0<th>1<th>2<th>3<th> <th>48<th>49<th>50<th>51
-<tr><td>AC<td>AD<td>AH<td>AS<td>· · ·<td>KC<td>KD<td>KH<td>KS
-</table>
 
+| 0 | 1 | 2 | 3 |   | 48 | 49 | 50 | 51 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| AC | AD | AH | AS | · · · | KC | KD | kH | KS |
 
 The Freecell Solver stores the randomly sorted deck into a Tableau and transforms the cards to code points 65 thru 125. The bits for suit and rank are swap and bit 1 is set to 1 placing the deck in the displayable range of the ascii code points. Finally, the Clubs and Diamonds are swapped making the test
 
