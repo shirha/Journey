@@ -39,6 +39,8 @@ function oppositeColors (src, dst) {
 }
 ```
 
+Also note that now you can add 1 to the card and get the next card in the sequence instead of adding 4.
+
 (fig.3)
 <table>
 <tr><th>0<th>1<th>2<th>3<th>4<th>5<th>6<th>7
