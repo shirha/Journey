@@ -64,6 +64,8 @@ https://jsfiddle.net/shirha/r0rq1L1b/
 
 [Freecell Solver sprite sheet](https://github.com/shirha/freecell-mobile/blob/master/i/sheet.png)
 
+<div style="overflow: hidden; width: 1300px; height: 600px"><img src="https://github.com/shirha/freecell-mobile/blob/master/i/sheet.png"></div>
+
 
 
 
