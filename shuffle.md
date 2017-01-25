@@ -23,3 +23,10 @@ The deck begins with Aces and ends with Kings and occupies the first 52 ascii co
 <tr><td>AC<td>AD<td>AH<td>AS<td>· · ·<td>KC<td>KD<td>KH<td>KS
 </table>
 
+The Freecell Solver stores the randomly sorted deck into a Tableau and transforms the cards to code points 65 thru 125. The bits for suit and rank are swap and bit 1 is set to 1.
+
+(fig.3)
+<table>
+<tr><th>0<th>1<th>2<th>3<th>4<th>5<th>6<th>7
+<tr><td>0<td>1<td colspan=2 align=center>suit<td colspan=4 align=center>rank
+</table>
