@@ -3,7 +3,9 @@
 <img src='layout.png'>
 
 ```
-tableau.toString()
+tableau.toString();
+
+(fig.1)
 
 KH 6H 5H TD 5D 4C 6S 8D 
 JC 2D 4H 8S KD 7D TC JH 
