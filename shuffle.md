@@ -3,7 +3,9 @@
 
 <a href="http://www.solitairelaboratory.com/mshuffle.txt" target="#">Microsoft shuffle</a>
 
-http://rosettacode.org/wiki/Linear_congruential_generator
+<a href="http://rosettacode.org/wiki/Linear_congruential_generator" target="#">Linear Congruential Generator</a>
+
+
 
 The Microsoft deck byte layout is as follows. The suits occupy bits 6 and 7 and the order is Clubs, Diamonds, Hearts and Spades, The rank occupies bits 2 thru 5.  
 
