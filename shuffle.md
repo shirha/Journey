@@ -36,8 +36,8 @@ instead of
 
 ``` 
 function oppositeColors (src, dst) { 
-  return (((src & 1) || (src & 2)) && !((dst & 1) || (dst & 2)) ||
-         !((src & 1) || (src & 2)) &&  ((dst & 1) || (dst & 2));
+  return (((src & 16) || (src & 32)) && !((dst & 16) || (dst & 32)) ||
+         !((src & 16) || (src & 32)) &&  ((dst & 16) || (dst & 32));
 }
 ```
 
