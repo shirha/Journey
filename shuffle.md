@@ -31,13 +31,7 @@ The Freecell Solver stores the randomly sorted deck into a Tableau and transform
 <tr><td>0<td>1<td colspan=2 align=center>suit<td colspan=4 align=center>rank
 </table>
 
-(fig.3)
-<table>
-<tr><th>0<th>1<th>2<th>3<th>4<th>5<th>6<th>7
-<tr><td>0<td>1<td colspan=2 align=center>suit<td colspan=4 align=center>rank
-</table>
-
-
+(fig.4)
 |     | suit |   rank | A    | 2    | 3    | 4    | 5    | 6    | 7    | 8    | 9    | T    | J    | Q    | K    |
 | ---:| ----:| --------:| ----:| ----:| ----:| ----:| ----:|  ---:| ----:| ----:| ----:| ----:| ----:| ----:| ----:|  
 |     |      | ....0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 | 1010 | 1011 | 1100 | 1101 |
@@ -56,4 +50,3 @@ The Freecell Solver stores the randomly sorted deck into a Tableau and transform
 
 
 
-</table>
