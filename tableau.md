@@ -5,7 +5,7 @@
 (fig.1)
 
 ```
-tableau.toString();
+(new Tableau).init(12129).toString();
 
 KH 6H 5H TD 5D 4C 6S 8D 
 JC 2D 4H 8S KD 7D TC JH 
