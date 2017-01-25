@@ -60,16 +60,3 @@ dec  suit   rank →  A    2    3    4    5    6    7    8    9    T    J    Q  
 ```
 
 https://jsfiddle.net/shirha/r0rq1L1b/
-
-
-[Freecell Solver sprite sheet](https://github.com/shirha/freecell-mobile/blob/master/i/sheet.png)
-
-<img style="object-fit:cover;overflow:hidden;width:100px;height:100px" src="https://github.com/shirha/freecell-mobile/blob/master/i/sheet.png">
-
-
-
-
-
-
-
-
