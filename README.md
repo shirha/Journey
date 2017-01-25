@@ -1,7 +1,6 @@
 # The Journey
 
 * [The Microsoft Shuffle](shuffle.md)
-* [The Many Faces of a Deck](deck.md)
 * [The Tableau and its Helpers](tableau.md)
 * [Generate All Possible Moves](gen.md) 
 * [A Safe Autoplay](auto.md)
