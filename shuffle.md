@@ -1,8 +1,6 @@
 
 ## Microsoft Shuffle
 
-https://jsfiddle.net/shirha/r0rq1L1b/
-
 http://www.solitairelaboratory.com/mshuffle.txt
 
 http://rosettacode.org/wiki/Linear_congruential_generator
@@ -56,6 +54,8 @@ function oppositeColors (src, dst) {
  96  H  0110....    a    b    c    d    e    f    g    h    i    j    k    l    m
 112  S  0111....    q    r    s    t    u    v    w    x    y    z    {    |    }
 ```
+
+https://jsfiddle.net/shirha/r0rq1L1b/
 
 
 
