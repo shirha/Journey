@@ -34,10 +34,9 @@ function shuffle(demo) {
 }
 
 function message(tableau, sep = '<br>') {
-  var msg, flag, r, c, card, n;
-  for (msg = "", flag = true, r = 0; flag;) {
+  for (var msg = "", flag = true, r = 0, card, n; flag;) {
     r > 0 && (flag = false);
-    for (c = 0; c < 8; c++) {
+    for (var c = 0; c < 8; c++) {
       n = tableau[c][r],
       card = toStr(rank(n), suit(n)), 
       card != "  " && (flag = true), 
