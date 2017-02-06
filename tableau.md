@@ -2,16 +2,16 @@
 
 <img src='layout.png'>
 
-(fig.1) game#21219
+(fig.1) game#11853
 
 ```
-·· ·· ·· ·· ·· ·· ·· ··
-KH 6H 5H TD 5D 4C 6S 8D 
-JC 2D 4H 8S KD 7D TC JH 
-QS 2S QH 9D TS 6C KC 7C 
-2C 9H 5S 9C 2H 7H AS 7S 
-QC 3H 3D KS TH 3S 5C JS 
-JD AD 6D 4D AH QD AC 9S 
-4S 8H 8C 3C
+TS          AD          
+KD 5D QH 6D KH QC 8D 4S 
+6H 4C QS 7H JH 9D TC 3S 
+TH 2S 9S 5C 8H 5S KC 9C 
+7D 3C 9H KS 6S JD AS AC 
+2C 3D 5H 4D TD JC AH 8S 
+JS 2D 4H 3H    7C 6C 7S 
+2H QD 8C 
 ```
 
