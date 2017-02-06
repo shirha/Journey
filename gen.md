@@ -45,5 +45,5 @@ Each move consists of an array of columns, rows, sources and destinations. e.g. 
 
 Note that autoplay moved the AC and the AS home. The `'cc'` and `'ach'` are the signatures of the code that generated the node. The codes are [c]olumn, [e]mpty, [f]ree, [h]ome and [a]utoplay. 
 
-[« The Tableau and its Helpers](tableau.md) | [Generate All Possible Moves »](gen.md)
+[« The Tableau and its Helpers](tableau.md) | [Create an Entry Key »](entry.md)
 
