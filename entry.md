@@ -1,4 +1,4 @@
-The Entry instances are stored in the position hash. They are created using the layout.
+The Entry instances are stored in the position hash. They are created using the ascii layout.
 
 ```
 z       A       
