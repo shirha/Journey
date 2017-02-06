@@ -47,3 +47,5 @@ R C e D J [ a x
 { B d c   W V w 
 b L X           
 ```
+
+[Create an Entry Key](entry.md)
