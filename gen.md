@@ -38,3 +38,4 @@ The `'cc'` is the signature of the code that generated the node. Here are all th
 ]
 ```
 
+[It All Depends on the Star Routine](star.md)
