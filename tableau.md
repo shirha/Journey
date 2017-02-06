@@ -21,7 +21,7 @@ JSON.stringify(tableau)
 
 the human readable form is easier on the eyes
 
-```
+```javascript 
 format(tableau, 'asString')
 
 TS          AD          
@@ -35,8 +35,8 @@ JS 2D 4H 3H    7C 6C 7S
 ```
 the class Entry uses the ascii format.
 
-```
-format(tableau, 'ascii')
+```javascript 
+format(tableau, 'asAscii')
 
 z       A       
 M E l F m \ H t 
