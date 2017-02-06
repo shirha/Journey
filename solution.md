@@ -1,36 +1,7 @@
 ```
-" ETrSCBL FgU}DcA HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[1,3,6,0,5,2,4,7],"depth":0,"score":123,"node":[]}
-}
+game#11853 solver log
+
  depth=  1  score=113 168 121  stats[mid]=    0     0  stk=    1  p=     1  cnt=     9
-{
-" ETrSCBL FgU}DcA HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{
-    "token":[1,3,6,0,5,2,4,7],
-    "depth":0,
-    "score":123,
-    "node":[]},
-
-"Ab ETrSCBL FgU}Dc HZ]qaV MfjGR{ \\IuK[W l|yiedX mkhvJz tsYQxw":{
-    "token":[4,0,1,3,6,0,5,2,4,7],
-    "depth":1,
-    "score":121,
-    "node":[[0,7,0,0,"cf"],[3,7,4,0,"ach"]]},
-
-"BL ETrSC FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{
-    "token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":118,"node":[[1,7,0,0,"cf"],[3,7,4,0,"ach"],[1,6,4,0,"ach"]]},
-"AX ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yied mkhvJz tsYQxw":
-    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":120,"node":[[2,7,0,0,"cf"],[3,7,4,0,"ach"]]},
-"A ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":
-    {"token":[4,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[3,7,4,0,"ch"]]},
-"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw":
-    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":120,"node":[[4,6,0,0,"cf"],[3,7,4,0,"ach"]]},
-"AW ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[ l|yiedX mkhvJz tsYQxw":
-    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[5,6,0,0,"cf"],[3,7,4,0,"ach"]]},
-"AVbq ETrSCBL FgU}Dc HZ] MfjGR{ \\IuK[W l|yiedX mkhvJz tsYQxw":
-    {"token":[4,0,6,7,1,3,6,0,5,2,4,7],"depth":1,"score":113,"node":[[6,6,0,0,"cf"],[3,7,4,0,"ach"],[6,5,6,0,"ach"],[0,7,6,0,"ach"],[6,4,7,0,"ach"]]},
-"Aw ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQx":
-    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[7,6,0,0,"cf"],[3,7,4,0,"ach"]]}
-}
-
  depth=  2  score=109 168 121  stats[mid]=    0     0  stk=    8  p=     9  cnt=    70
  depth=  3  score=106 168 121  stats[mid]=    0     0  stk=   42  p=    51  cnt=   398
  depth=  4  score=103 168 121  stats[mid]=    0     0  stk=  179  p=   230  cnt=  1813
@@ -49,6 +20,6 @@
  depth= 17  score= 37  55  60  stats[mid]= 1361  1466  stk= 3780  p= 30241  cnt= 60036
  depth= 18  score= 35  51  56  stats[mid]= 1404  2442  stk= 3172  p= 33413  cnt= 51083
  depth= 19  score=  0  50  52  stats[mid]= 1123  1206  stk= 2633  p= 36046  cnt= 11602
+
 0:123 1:120 2:112 3:110 4:106 5:103 6:103 7:90 8:80 9:75 10:74 11:69 12:67 13:65 14:64 15:62 16:53 17:38 18:37 19:0
-8.798s
 ```
