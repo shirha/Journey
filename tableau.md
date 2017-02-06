@@ -2,7 +2,7 @@
 
 <img src='i/layout.png'>
 
-(fig.1) game#11853 after 2. TS f
+(fig.1) game#11853 after 1. TS f
 
 ```
 TS          AD          
