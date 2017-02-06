@@ -1,3 +1,5 @@
+Generate All Possible Moves
+
 The `gen()` routine creates all the legal moves for a given layout and the `autoplay()` routines adds the cards that are safe to go home.  The routine will not move a freecell to another freecell or a whole cascade column to another cascade column. Those moves are a waste of time. The routine uses [supermoves](http://www.solitairelaboratory.com/fcfaq.html#Supermove). 
 
 ```
