@@ -49,3 +49,5 @@ The Entry instance has now been created by the rest of it needs to be filled out
 NOTE. The elaborate effort to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as a duplicate and won't get stored.
 
 The code `var entry = new Entry(tableau)` creates a key/value pair ready to store in the position hash and `var tableau = fromToken(entry)` will re-create the tableau by using the key and token to put it back together again.
+
+[Generate All Possible Moves](gen.md)
