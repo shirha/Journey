@@ -48,5 +48,5 @@ R C e D J [ a x
 b L X           
 ```
 
-* [The Microsoft Shuffle](shuffle.md) | * [The Tableau and its Helpers](tableau.md)
+[« The Microsoft Shuffle](shuffle.md) |  [The Tableau and its Helpers »](tableau.md)
 
