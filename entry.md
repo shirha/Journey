@@ -50,4 +50,4 @@ NOTE. The elaborate effort to make an entry key is to help eliminate storing dup
 
 The code `var entry = new Entry(tableau)` creates a key/value pair ready to store in the position hash and `var tableau = fromToken(entry)` will re-create the tableau by using the key and token to put it back together again.
 
-[Generate All Possible Moves](gen.md)
+[Generate All Possible Moves »](gen.md)
