@@ -1,4 +1,4 @@
-game#11853 solver log
+(fig.1) game #11853 solver log
 
 ```
  depth=  1  score=113 168 121  stats[mid]=    0     0  stk=    1  p=     1  cnt=     9
