@@ -61,4 +61,4 @@ dec  suit   rank →  A    2    3    4    5    6    7    8    9    T    J    Q  
 
 https://jsfiddle.net/shirha/r0rq1L1b/
 
-[The Tableau and his Helpers](tableau.md)
+[The Tableau and his Helpers »](tableau.md)
