@@ -38,4 +38,3 @@ The `'cc'` is the signature of the code that generated the node. Here are all th
 ]
 ```
 
-<div style="text-align: right"> your-text-here </div>
