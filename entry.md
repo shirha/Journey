@@ -15,8 +15,8 @@ R C e D J [ a x
 b L X           
 ```
 
-The freecells and homecells are gathered along with their indexes into the foundation and,
-the cascades are also gathered with there indexes by column into the cascades.
+The freecells and homecells are gathered along with their indexes into a foundation array and,
+the cascades are also gathered with there indexes by column into a cascades array.
 
 ```
 before sort
@@ -26,7 +26,7 @@ cascades:   [["MfjGR{b",0],["ETrSCBL",1],["l|yiedX",2],["FgU}Dc",3],["mkhvJ",4],
 token:      []
 ```
 
-The foundation is sorted then joined('') and their indexes are push to the token array. Next, the cascades are sorted and their indexes are push to the token array also.
+The foundation array is sorted then joined('') and their indexes are push to the token array. Next, the cascades array is sorted and their indexes are pushed to the token array also.
 
 ```
 after sort
@@ -51,7 +51,7 @@ The foundation and cascades are joined('` `') together to form the Entry key and
 
 The completely filled out entry instance stored in the position hash for `TS f`. The `node` shows the move that was made to achieve this layout from the original layout and the `score` associated with this layout .
 
-NOTE. The elaborate effort to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as a duplicate and won't get stored.
+NOTE. The elaborate effort used to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as a duplicate and won't get stored.
 
 The code `var entry = new Entry(tableau)` creates a key/value pair ready to store in the position hash and `var tableau = fromToken(entry)` will re-create the tableau by using the key and token to put it back together again. `'backtrak()` uses `undo(tableau, node)` to take you back to the previous layout.
 
