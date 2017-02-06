@@ -22,7 +22,7 @@ cascades:   [["MfjGR{b",0],["ETrSCBL",1],["l|yiedX",2],["FgU}Dc",3],["mkhvJ",4],
 token:      []
 ```
 
-The foundation is sorted then joined('') and the indexes push to the token array. Next, the cascades are sorted and there indexes push to the token array also.
+The foundation is sorted then joined('') and their indexes are push to the token array. Next, the cascades are sorted and their indexes are push to the token array also.
 
 ```
 after sort
