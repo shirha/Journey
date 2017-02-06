@@ -17,7 +17,9 @@ Each move consists of an array of columns, rows, sources and destinations. e.g. 
 
 | src col | src row | dst col | dst row | id  |
 |:-------:|:-------:|:-------:|:-------:|:---:| 
-|   6     |    5    |    1    |    8    | cc  |
+|   6     |    5    |    1    |    8    |'cc' |
+
+The `'cc'` is the signature of the code that generated the node. Here are all the legal moves for the initial layout of game #10913.
  
 ``` 
 [
