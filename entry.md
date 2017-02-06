@@ -22,12 +22,15 @@ cascades:   [["MfjGR{b",0],["ETrSCBL",1],["l|yiedX",2],["FgU}Dc",3],["mkhvJ",4],
 token:      []
 ```
 
+Then the foundation is sorted and the indexes push to the token array. Next, the cascades are sorted and there indexes push to the token array also.
 
+```
 after sort
 
 foundation: "Az"
 cascades:  ["ETrSCBL","FgU}Dc","HZ]qaV","MfjGR{b","\\IuK[W","l|yiedX","mkhvJ","tsYQxw"]
 token:     [4,0,1,3,6,0,5,2,4,7]
+```
 
 
 {"key":"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw", "value":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":0,"score":0,"node":[]}}
