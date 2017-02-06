@@ -1,4 +1,4 @@
-The Entry instances are stored in the position hash. They are created using the ascii layout.
+The Entry instances are a key/value pair stored in the position hash. They are created using the ascii layout.
 
 ```
 z       A       
@@ -22,7 +22,7 @@ cascades:   [["MfjGR{b",0],["ETrSCBL",1],["l|yiedX",2],["FgU}Dc",3],["mkhvJ",4],
 token:      []
 ```
 
-Then the foundation is sorted and the indexes push to the token array. Next, the cascades are sorted and there indexes push to the token array also.
+The foundation is sorted then joined('') and the indexes push to the token array. Next, the cascades are sorted and there indexes push to the token array also.
 
 ```
 after sort
@@ -32,7 +32,7 @@ cascades:  ["ETrSCBL","FgU}Dc","HZ]qaV","MfjGR{b","\\IuK[W","l|yiedX","mkhvJ","t
 token:     [4,0,1,3,6,0,5,2,4,7]
 ```
 
-The foundation and cascades are concatenated together to form the Entry key and the token array is stored in the value object.
+The foundation and cascades are joined(' ') together to form the Entry key and the token array is stored in the value object.
 
 ```
 {"key":"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw",
@@ -43,3 +43,5 @@ The foundation and cascades are concatenated together to form the Entry key and 
   "node":[]}
 }
 ```
+
+The Entry instance has now been created by the rest of it needs to be filled out before being store in the position hash.
