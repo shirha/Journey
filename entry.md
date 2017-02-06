@@ -32,7 +32,7 @@ cascades:  ["ETrSCBL","FgU}Dc","HZ]qaV","MfjGR{b","\\IuK[W","l|yiedX","mkhvJ","t
 token:     [4,0,1,3,6,0,5,2,4,7]
 ```
 
-The foundation and cascades are joined(' ') together to form the Entry key and the token array is stored in the value object.
+The foundation and cascades are joined('·') together to form the Entry key and the token array is stored in the value object.
 
 ```
 {"key":"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw",
