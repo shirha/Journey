@@ -1,5 +1,7 @@
 The Entry instances are a key/value pair stored in the position hash. They are created using the ascii layout.
 
+(fig.1) ascii format of game #11853 after 1. TS f
+
 ```
 z       A       
 M E l F m \ H t 
@@ -34,17 +36,18 @@ token:     [4,0,1,3,6,0,5,2,4,7]
 
 The foundation and cascades are joined('` `') together to form the Entry key and the token array is stored in the value object.
 
+(fig.2) completed entry for 1.`TS f`.
+
 ```
-{"key":"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw",
-"value":{
+"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw": {
   "token":[4,0,1,3,6,0,5,2,4,7],
-  "depth":0,
-  "score":0,
-  "node":[]}
+  "depth":1,
+  "score":120,
+  "node":[[4,6,0,0,"cf"],[3,7,4,0,"ach"]]
 }
 ```
 
-The Entry instance has now been created by the rest of it needs to be filled out before being store in the position hash.
+(fig.2) is a completely filled out entry instance stored in the position hash. The `node` shows the move that was made to achieve this layout from the original layout and the `score` associated with this layout .
 
 NOTE. The elaborate effort to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as a duplicate and won't get stored.
 
