@@ -3,8 +3,8 @@
 * [The Microsoft Shuffle](shuffle.md)
 * [The Tableau and his Helpers](tableau.md)
 * [Generate All Possible Moves](gen.md) 
-* [It All Depends on the Star Routine](star.md)
 * [Create an Entry Key](entry.md)
+* [It All Depends on the Star Routine](star.md)
 * [In Search of the Four Kings](solution.md)
 
 ---
