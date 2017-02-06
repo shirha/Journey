@@ -25,6 +25,10 @@
 
 0:123 1:120 2:112 3:110 4:106 5:103 6:103 7:90 8:80 9:75 10:74 11:69 12:67 13:65 14:64 15:62 16:53 17:38 18:37
 ```
+
+The `search()` begins by creating and `Entry` instance of initial layout and storing it in the `position` hash and pushing the entry onto the `stack` array. It then `gens()` all the legal moves that can be made to that layout and stores those new layout entries into the `nextstack` array. The `Entry` keys for these candidates are also `staged` in a hash if they do not represent a duplicate in either the `staged` hash or `position` hash and the layout `score` is not greater than the lowest 2000 scores staged already. When all the entries in the current `stack` have been processed, the `nextstack` entry are stored in the `position` hash and moved to the `stack` filtered by score so that the next `search()` can begin.
+
+
 11853,19,2,w7,
 
 No | SN | Move | To | Autopaly to home
