@@ -4,8 +4,6 @@
 * [The Tableau and its Helpers](tableau.md)
 * [Create an Entry Key](entry.md)
 * [Generate All Possible Moves](gen.md) 
-* [A Safe Autoplay](auto.md)
-* [The Position Hash Gate](pos.md)
 * [It All Depends on the Star Routine](star.md)
 * [In Search of the Four Kings](solution.md)
 
