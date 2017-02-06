@@ -1,8 +1,9 @@
-The gen() routine creates all the legal moves for a given layout and autoplay() routines adds the cards that are safe to go home.
+The `gen()` routine creates all the legal moves for a given layout and the `autoplay()` routines adds the cards that are safe to go home.  The routine will not move a freecell to another freecell and a whole cascade columns to another cascade column. The gen routine uses supermoves. 
 
 ```
 #10913
 
+·· ·· ·· ·· ·· ·· ·· ··
 QS KH JD 8H QD TD 8S KD
 TS KS JS AD 8D 4S 2C 7C
 TH JC 5C 4D 9S QC TC 7H
@@ -12,7 +13,7 @@ TH JC 5C 4D 9S QC TC 7H
 6D 5D QH AC
 ```
 
-Each move consists of array of columns and rows and source and destination. e.g. the 4C to the 5D look like this
+Each move consists of an array of columns, rows, source and destination. e.g. the 4C to the 5D look like this
 
 | src col | src row | dst col | dst row | id  |
 |:-------:|:-------:|:-------:|:-------:|:---:| 
