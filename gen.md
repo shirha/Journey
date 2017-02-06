@@ -1,4 +1,4 @@
-Generate All Possible Moves
+## Generate All Possible Moves
 
 The `gen()` routine creates all the legal moves for a given layout and the `autoplay()` routines adds the cards that are safe to go home.  The routine will not move a freecell to another freecell or a whole cascade column to another cascade column. Those moves are a waste of time. The routine uses [supermoves](http://www.solitairelaboratory.com/fcfaq.html#Supermove). 
 
@@ -40,5 +40,5 @@ The `'cc'` is the signature of the code that generated the node. Here are all th
 ]
 ```
 
-[« Generate All Possible Moves](gen.md) | [It All Depends on the Star Routine »](star.md)
+[« The Tableau and its Helpers](tableau.md) | [It All Depends on the Star Routine »](star.md)
 
