@@ -21,7 +21,7 @@ Each move consists of an array of columns, rows, sources and destinations. e.g. 
 |:-------:|:-------:|:-------:|:-------:|:---:|---|:-------:|:-------:|:-------:|:-------:|:---:|
 |   6     |    5    |    1    |    8    |'cc' |   |   6     |    6    |    1    |    9    |'cc' |
 
-The `'cc'` is the signature of the code that generated the node. Here are all the legal moves for the initial layout of game #10913.
+The `'cc'` is the signature of the code that generated the node. The codes are `c`olumn `e`mpty, `f`ree, `h`ome and `a`utoplay. Here are all the legal moves for the initial layout of game #10913.
  
 ``` 
 [
