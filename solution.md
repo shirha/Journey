@@ -1,3 +1,4 @@
+```
 " ETrSCBL FgU}DcA HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[1,3,6,0,5,2,4,7],"depth":0,"score":123,"node":[]}
 }
  depth=  1  score=113 168 121  stats[mid]=    0     0  stk=    1  p=     1  cnt=     9
@@ -29,7 +30,7 @@
 "Aw ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQx":
     {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[7,6,0,0,"cf"],[3,7,4,0,"ach"]]}
 }
-```
+
  depth=  2  score=109 168 121  stats[mid]=    0     0  stk=    8  p=     9  cnt=    70
  depth=  3  score=106 168 121  stats[mid]=    0     0  stk=   42  p=    51  cnt=   398
  depth=  4  score=103 168 121  stats[mid]=    0     0  stk=  179  p=   230  cnt=  1813
