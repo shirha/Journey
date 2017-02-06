@@ -25,7 +25,7 @@ The deck begins with Aces and ends with Kings and occupies the first 52 ascii co
 
 The Freecell Solver stores the randomly sorted deck into a Tableau and transforms the cards to code points 65 thru 125. The bits for suit and rank are swap and bit 1 is set to 1 placing the deck in the displayable range of the ascii code points. String keys for the Position hash are created with these bytes. Finally, the Clubs and Diamonds are swapped making the test
 
-``` 
+```javascript 
 function oppositeColors (src, dst) {  
   return (src & 16) !== (dst & 16); 
 }
@@ -33,7 +33,7 @@ function oppositeColors (src, dst) {
 
 instead of
 
-``` 
+```javascript  
 function oppositeColors (src, dst) { 
   return (((src & 48) === 0 || (src & 48) === 48) && !((dst & 48) === 0 || (dst & 48) === 48);
 }
