@@ -1,7 +1,7 @@
 # The Journey
 
 * [The Microsoft Shuffle](shuffle.md)
-* [The Tableau and its Helpers](tableau.md)
+* [The Tableau and his Helpers](tableau.md)
 * [Generate All Possible Moves](gen.md) 
 * [It All Depends on the Star Routine](star.md)
 * [Create an Entry Key](entry.md)
