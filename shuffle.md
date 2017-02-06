@@ -35,7 +35,7 @@ instead of
 
 ```javascript  
 function oppositeColors (src, dst) { 
-  return (((src & 48) === 0 || (src & 48) === 48) && !((dst & 48) === 0 || (dst & 48) === 48);
+  return (((src & 48) === 0 || (src & 48) === 48) && !((dst & 48) === 0 || (dst & 48) === 48));
 }
 ```
 
