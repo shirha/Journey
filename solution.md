@@ -1,3 +1,5 @@
+## In Search of the Four Kings
+
 (fig.1) game #11853 solver log
 
 ```
@@ -24,4 +26,4 @@
 0:123 1:120 2:112 3:110 4:106 5:103 6:103 7:90 8:80 9:75 10:74 11:69 12:67 13:65 14:64 15:62 16:53 17:38 18:37
 ```
 
-[« It All Depends on the Star Routine](star.md)
+[« Create an Entry Key](entry.md)
