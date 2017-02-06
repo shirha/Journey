@@ -48,4 +48,5 @@ R C e D J [ a x
 b L X           
 ```
 
-[Create an Entry Key »](entry.md)
+* [The Microsoft Shuffle](shuffle.md) | * [The Tableau and its Helpers](tableau.md)
+
