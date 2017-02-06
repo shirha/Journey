@@ -15,8 +15,8 @@ TH JC 5C 4D 9S QC TC 7H
 Each move consists of array of columns and rows and source and destination. e.g. the 4C to the 5D look like this
 
 | src col | src row | dst col | dst row | id  |
-| ------- | ------- | ------- | ------- | --- | 
- |   6    |    5    |    1    |    8    | cc  |
+|:-------:|:-------:|:-------:|:-------:|:---:| 
+|   6     |    5    |    1    |    8    | cc  |
  
 ``` 
 [
