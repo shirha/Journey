@@ -49,7 +49,7 @@ The foundation and cascades are joined('` `') together to form the Entry key and
 }
 ```
 
-(fig.2) is a completely filled out entry instance stored in the position hash. The `node` shows the move that was made to achieve this layout from the original layout and the `score` associated with this layout .
+The completely filled out entry instance stored in the position hash for `TS f`. The `node` shows the move that was made to achieve this layout from the original layout and the `score` associated with this layout .
 
 NOTE. The elaborate effort to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as a duplicate and won't get stored.
 
