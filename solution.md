@@ -24,7 +24,7 @@
  depth= 19  score=  0  50  52  stats[mid]= 1123  1206  stk= 2633  p= 36046  cnt= 11602
 
 0:123 1:120 2:112 3:110 4:106 5:103 6:103 7:90 8:80 9:75 10:74 11:69 12:67 13:65 14:64 15:62 16:53 17:38 18:37
-
+```
 11853,19,2,w7,
 
 No | SN | Move | To | Autopaly to home
@@ -48,6 +48,6 @@ No | SN | Move | To | Autopaly to home
 17|17|TH|JS|8C;6H-9H;7S-8S
 18|72|KC-TH|e|
 19|7c|TC|f|8D-KD;9C-KC;TH-KH;9S-KS
-```
+
 
 [« Create an Entry Key](entry.md)
