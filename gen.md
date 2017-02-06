@@ -1,0 +1,36 @@
+The gen() routine creates all the legal moves for a given layout and autoplay() routines adds the cards that are safe to go home.
+
+```
+#10913
+
+QS KH JD 8H QD TD 8S KD
+TS KS JS AD 8D 4S 2C 7C
+TH JC 5C 4D 9S QC TC 7H
+8C 9C 3C 5H 2H 6H 9H 6C
+7S AH KC 4H 7D 2S 4C 3S
+3H JH 2D 5S 9D 6S 3D AS
+6D 5D QH AC
+```
+
+Each move consists of array of columns and rows and source and destination. e.g. the 4C to the 5D look like this
+
+| src col | src row | dst col | dst row | id  |
+| ------- | ------- | ------- | ------- | --- | 
+ |   6    |    5    |    1    |    8    | cc  |
+ 
+``` 
+[
+[[0,7,0,0,"cf"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[1,7,0,0,"cf"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[1,7,5,7,"cc"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[2,7,0,0,"cf"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[3,7,5,0,"ch"],[7,6,7,0,"ach"]],
+[[3,7,0,0,"cf"],[0,0,5,0,"afh"],[7,6,7,0,"ach"]],
+[[4,6,0,0,"cf"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[5,6,0,0,"cf"],[3,7,5,0,"ach"],[7,6,7,0,"ach"],[5,5,7,0,"ach"]],
+[[6,6,0,0,"cf"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[6,5,1,8,"cc"],[6,6,1,9,"cc"],[3,7,5,0,"ach"],[7,6,7,0,"ach"]],
+[[7,6,7,0,"ch"],[3,7,5,0,"ach"]],
+[[7,6,0,0,"cf"],[0,0,7,0,"afh"],[3,7,5,0,"ach"]]
+]
+```
