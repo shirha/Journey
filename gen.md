@@ -34,7 +34,7 @@ Here are all the legal moves for the initial layout of game #10913.
 ]
 ```
 
-Each move consists of an array of columns, rows, sources and destinations. e.g. the 4C-3D to the 5D look like this. 
+Each move consists of an array of columns, rows, sources and destinations. e.g. the 4C-3D to the 5D look like this. Note the destination row is actually one above the stated card and counting rows from 0 which is the freecell and homecell row.
 
 | src col | src row | dst col | dst row | id  | 
 |:-------:|:-------:|:-------:|:-------:|:---:|
