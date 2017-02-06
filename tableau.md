@@ -1,6 +1,6 @@
 ## Tableau and his helpers
 
-<img src='layout.png'>
+<img src='i/layout.png'>
 
 (fig.1) game#11853 after 2. TS f
 
