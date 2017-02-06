@@ -2,15 +2,32 @@
 }
  depth=  1  score=113 168 121  stats[mid]=    0     0  stk=    1  p=     1  cnt=     9
 {
-" ETrSCBL FgU}DcA HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[1,3,6,0,5,2,4,7],"depth":0,"score":123,"node":[]},
-"Ab ETrSCBL FgU}Dc HZ]qaV MfjGR{ \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[0,7,0,0,"cf"],[3,7,4,0,"ach"]]},
-"BL ETrSC FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":118,"node":[[1,7,0,0,"cf"],[3,7,4,0,"ach"],[1,6,4,0,"ach"]]},
-"AX ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yied mkhvJz tsYQxw":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":120,"node":[[2,7,0,0,"cf"],[3,7,4,0,"ach"]]},
-"A ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[4,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[3,7,4,0,"ch"]]},
-"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":120,"node":[[4,6,0,0,"cf"],[3,7,4,0,"ach"]]},
-"AW ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[ l|yiedX mkhvJz tsYQxw":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[5,6,0,0,"cf"],[3,7,4,0,"ach"]]},
-"AVbq ETrSCBL FgU}Dc HZ] MfjGR{ \\IuK[W l|yiedX mkhvJz tsYQxw":{"token":[4,0,6,7,1,3,6,0,5,2,4,7],"depth":1,"score":113,"node":[[6,6,0,0,"cf"],[3,7,4,0,"ach"],[6,5,6,0,"ach"],[0,7,6,0,"ach"],[6,4,7,0,"ach"]]},
-"Aw ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQx":{"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[7,6,0,0,"cf"],[3,7,4,0,"ach"]]}
+" ETrSCBL FgU}DcA HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{
+    "token":[1,3,6,0,5,2,4,7],
+    "depth":0,
+    "score":123,
+    "node":[]},
+
+"Ab ETrSCBL FgU}Dc HZ]qaV MfjGR{ \\IuK[W l|yiedX mkhvJz tsYQxw":{
+    "token":[4,0,1,3,6,0,5,2,4,7],
+    "depth":1,
+    "score":121,
+    "node":[[0,7,0,0,"cf"],[3,7,4,0,"ach"]]},
+
+"BL ETrSC FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":{
+    "token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":118,"node":[[1,7,0,0,"cf"],[3,7,4,0,"ach"],[1,6,4,0,"ach"]]},
+"AX ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yied mkhvJz tsYQxw":
+    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":120,"node":[[2,7,0,0,"cf"],[3,7,4,0,"ach"]]},
+"A ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQxw":
+    {"token":[4,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[3,7,4,0,"ch"]]},
+"Az ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJ tsYQxw":
+    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":120,"node":[[4,6,0,0,"cf"],[3,7,4,0,"ach"]]},
+"AW ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[ l|yiedX mkhvJz tsYQxw":
+    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[5,6,0,0,"cf"],[3,7,4,0,"ach"]]},
+"AVbq ETrSCBL FgU}Dc HZ] MfjGR{ \\IuK[W l|yiedX mkhvJz tsYQxw":
+    {"token":[4,0,6,7,1,3,6,0,5,2,4,7],"depth":1,"score":113,"node":[[6,6,0,0,"cf"],[3,7,4,0,"ach"],[6,5,6,0,"ach"],[0,7,6,0,"ach"],[6,4,7,0,"ach"]]},
+"Aw ETrSCBL FgU}Dc HZ]qaV MfjGR{b \\IuK[W l|yiedX mkhvJz tsYQx":
+    {"token":[4,0,1,3,6,0,5,2,4,7],"depth":1,"score":121,"node":[[7,6,0,0,"cf"],[3,7,4,0,"ach"]]}
 }
 ```
  depth=  2  score=109 168 121  stats[mid]=    0     0  stk=    8  p=     9  cnt=    70
