@@ -1,4 +1,4 @@
-## Tableau and his helpers
+## Tableau and his Helpers
 
 <img src='i/layout.png'>
 
