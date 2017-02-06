@@ -35,7 +35,7 @@ Examining depth=17 show that the current `stk` of 3780 entries, being used by th
 
 11853,19,2,w7,
 
-No | SN | Move | To | Autopaly to home
+No | SN^ | Move | To | Autopaly to home
 ---:| --- | --- | --- |:---: 
  1|5a|TS|f|AD
  2|7b|6C|f|AH-2H;AS
@@ -56,6 +56,7 @@ No | SN | Move | To | Autopaly to home
 17|17|TH|JS|8C;6H-9H;7S-8S
 18|72|KC-TH|e|
 19|7c|TC|f|8D-KD;9C-KC;TH-KH;9S-KS
+^Standard Notation
 
 
 [« Create an Entry Key](entry.md)
