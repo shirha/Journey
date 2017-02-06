@@ -27,25 +27,24 @@
 ```
 <table><caption>Game#11853 (Windows 8)</caption>
 <tr><th>No<th>SN<th>Move<th>To<th>Autoplay to home
-<tr><td>1<td>5a<td>10♠<td>freecell<td>A<span>♦</span>
-<tr><td>2<td>7b<td>6♣<td>freecell<td>A<span>♥</span>-2<span>♥</span>;A♠
-<tr><td>3<td>12<td>J♠<td>Q<span>♦</span><td>
-<tr><td>4<td>27<td>Q<span>♦</span>-J♠<td>K♣<td>2<span>♦</span>
-<tr><td>5<td>2h<td>3<span>♦</span><td>home<td>
+<tr><td>1<td>5a<td>10♠<td>freecell<td>A<span sytle="color:red">♦</span sytle="color:red">
+<tr><td>2<td>7b<td>6♣<td>freecell<td>A<span sytle="color:red">♥</span sytle="color:red">-2<span sytle="color:red">♥</span sytle="color:red">;A♠
+<tr><td>3<td>12<td>J♠<td>Q<span sytle="color:red">♦</span sytle="color:red"><td>
+<tr><td>4<td>27<td>Q<span sytle="color:red">♦</span sytle="color:red">-J♠<td>K♣<td>2<span sytle="color:red">♦</span sytle="color:red">
+<tr><td>5<td>2h<td>3<span sytle="color:red">♦</span sytle="color:red"><td>home<td>
 <tr><td>6<td>8c<td>7♠<td>freecell<td>
-<tr><td>7<td>8d<td>8♠<td>freecell<td>A♣-4♣;3<span>♥</span>;2♠
-<tr><td>8<td>85<td>9♣<td>10<span>♦</span><td>4<span>♦</span>-5<span>♦</span>;3♠-4♠
-<tr><td>9<td>32<td>8♣<td>empty column<td>4<span>♥</span>-5<span>♥</span>
-<tr><td>10<td>d3<td>8♠<td>9<span>♥</span><td>
+<tr><td>7<td>8d<td>8♠<td>freecell<td>A♣-4♣;3<span sytle="color:red">♥</span sytle="color:red">;2♠
+<tr><td>8<td>85<td>9♣<td>10<span sytle="color:red">♦</span sytle="color:red"><td>4<span sytle="color:red">♦</span sytle="color:red">-5<span sytle="color:red">♦</span sytle="color:red">;3♠-4♠
+<tr><td>9<td>32<td>8♣<td>empty column<td>4<span sytle="color:red">♥</span sytle="color:red">-5<span sytle="color:red">♥</span sytle="color:red">
+<tr><td>10<td>d3<td>8♠<td>9<span sytle="color:red">♥</span sytle="color:red"><td>
 <tr><td>11<td>4d<td>K♠<td>freecell<td>5♣-6♣
-<tr><td>12<td>42<td>7<span>♥</span><td>8♣<td>
+<tr><td>12<td>42<td>7<span sytle="color:red">♥</span sytle="color:red"><td>8♣<td>
 <tr><td>13<td>6h<td>7♣<td>home<td>
 <tr><td>14<td>68<td>J♣<td>empty column<td>
-<tr><td>15<td>58<td>10<span>♦</span>-9♣<td>J♣<td>
-<tr><td>16<td>6b<td>J<span>♦</span><td>freecell<td>6<span>♦</span>-7<span>♦</span>;5♠-6♠
-<tr><td>17<td>17<td>10<span>♥</span><td>J♠<td>8♣;6<span>♥</span>-9<span>♥</span>;7♠-8♠
-<tr><td>18<td>72<td>K♣-10<span>♥</span><td>empty column<td>
-<tr><td>19<td>7c<td>10♣<td>freecell<td>8<span>♦</span>-K<span>♦</span>;9♣-K♣;10<span>♥</span>-K<span>♥</span>;9♠-K♠</table>
-
+<tr><td>15<td>58<td>10<span sytle="color:red">♦</span sytle="color:red">-9♣<td>J♣<td>
+<tr><td>16<td>6b<td>J<span sytle="color:red">♦</span sytle="color:red"><td>freecell<td>6<span sytle="color:red">♦</span sytle="color:red">-7<span sytle="color:red">♦</span sytle="color:red">;5♠-6♠
+<tr><td>17<td>17<td>10<span sytle="color:red">♥</span sytle="color:red"><td>J♠<td>8♣;6<span sytle="color:red">♥</span sytle="color:red">-9<span sytle="color:red">♥</span sytle="color:red">;7♠-8♠
+<tr><td>18<td>72<td>K♣-10<span sytle="color:red">♥</span sytle="color:red"><td>empty column<td>
+<tr><td>19<td>7c<td>10♣<td>freecell<td>8<span sytle="color:red">♦</span sytle="color:red">-K<span sytle="color:red">♦</span sytle="color:red">;9♣-K♣;10<span sytle="color:red">♥</span sytle="color:red">-K<span sytle="color:red">♥</span sytle="color:red">;9♠-K♠</table>
 
 [« Create an Entry Key](entry.md)
