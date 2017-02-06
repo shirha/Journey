@@ -46,4 +46,4 @@ The foundation and cascades are joined('` `') together to form the Entry key and
 
 The Entry instance has now been created by the rest of it needs to be filled out before being store in the position hash.
 
-NOTE. The elaborate effort to make the entry keys is to help eliminate storeing dup layouts int the positions hash. Now if a layout is the same except maybe the columns are switched, they will be flagged as duplicate and one of them won't get stored.
+NOTE. The elaborate effort to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as duplicate and won't get stored.
