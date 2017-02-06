@@ -28,7 +28,7 @@
 11853,19,2,w7,
 
 No | SN | Move | To | Autopaly to home
---- | --- | --- | --- | --- 
+---:| --- | --- | --- |:---: 
  1|5a|TS|f|AD
  2|7b|6C|f|AH-2H;AS
  3|12|JS|QD|
