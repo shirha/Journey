@@ -15,13 +15,14 @@ TH JC 5C 4D 9S QC TC 7H
 6D 5D QH AC
 ```
 
-Each move consists of an array of columns, rows, sources and destinations. e.g. the 4C-3D to the 5D look like this
+Each move consists of an array of columns, rows, sources and destinations. e.g. the 4C-3D to the 5D look like this. Note that autoplay moved the AC and the AS home.
 
 | src col | src row | dst col | dst row | id  |   | src col | src row | dst col | dst row | id  |
 |:-------:|:-------:|:-------:|:-------:|:---:|---|:-------:|:-------:|:-------:|:-------:|:---:|
 |   6     |    5    |    1    |    8    |'cc' |   |   6     |    6    |    1    |    9    |'cc' |
+|   3     |    7    |    5    |    0    |'ach' |   |   7     |    6    |    7    |    0    |'ach' |
 
-The `'cc'` is the signature of the code that generated the node. The codes are `c`olumn `e`mpty, `f`ree, `h`ome and `a`utoplay. Here are all the legal moves for the initial layout of game #10913.
+The `'cc'` and `ach` are the signatures of the code that generated the node. The codes are `c`olumn `e`mpty, `f`ree, `h`ome and `a`utoplay. Here are all the legal moves for the initial layout of game #10913.
  
 ``` 
 [
