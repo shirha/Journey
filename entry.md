@@ -53,7 +53,7 @@ The completely filled out entry instance stored in the position hash for `TS f`.
 
 NOTE. The elaborate effort to make an entry key is to help eliminate storing dup layouts in the positions hash. Now if two layouts are the same except maybe the columns are switched, one will be flagged as a duplicate and won't get stored.
 
-The code `var entry = new Entry(tableau)` creates a key/value pair ready to store in the position hash and `var tableau = fromToken(entry)` will re-create the tableau by using the key and token to put it back together again.
+The code `var entry = new Entry(tableau)` creates a key/value pair ready to store in the position hash and `var tableau = fromToken(entry)` will re-create the tableau by using the key and token to put it back together again. `'backtrak()` uses `undo(tableau, node)` to take you back to the previous layout.
 
 [« It All Depends on the Star Routine](star.md) | [In Search of the Four Kings »](solution.md)
 
