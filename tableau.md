@@ -48,4 +48,4 @@ R C e D J [ a x
 b L X           
 ```
 
-[Create an Entry Key](entry.md)
+[Create an Entry Key »](entry.md)
