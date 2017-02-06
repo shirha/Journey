@@ -5,7 +5,7 @@
 (fig.1) game#21219
 
 ```
-
+·· ·· ·· ·· ·· ·· ·· ··
 KH 6H 5H TD 5D 4C 6S 8D 
 JC 2D 4H 8S KD 7D TC JH 
 QS 2S QH 9D TS 6C KC 7C 
