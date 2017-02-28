@@ -28,7 +28,7 @@
 
 `stk` is the count of how may layout entries are on the stack. `p` is the size of the position hash. This includes the stack. `cnt` is how many new layouts were created with the current `stk` of entries and placed on nextstack with the keys staged. `depth` is the current level of the `search()`. Each time the `stack` is exhausted, the depth is increased and the next level of search begins. `score` shows the loscore, midscore and hiscore of all the candidate entries on the nextstack. `stats[mid]` shows how many entries were at the cutoff  score (midscore) of the 2000 low score limit for nextstack. The second column shows the number of entries that didn't make the cut for the next higher score (midscore+1). 
 
-Examining depth=17 show that the current `stk` of 3780 entries, being used by the current search, generated 60036 new layouts. The mid`score` cut-off to qualify for the position hash is 55. In the last line of the log, notice the list of key:values pairs and locate the entry 17:38. The 38 is the score the solution had at depth 17 and is only one above the loscore of 37. Also note that the `stk` count at depth=18 is only 2442, so that means that (60036 - 2442) = 57594 entries did not qualify for the position hash.
+Examining depth=17 show that the current `stk` of 3780 entries, being used by the current search, generated 60036 new layouts. The mid`score` cut-off to qualify for the position hash is 55. In the last line of the log, notice the list of key:value pairs and locate the entry 17:38. The 38 is the score the solution had at depth 17 and is only one above the loscore of 37. Also note that the `stk` count at depth=18 is only 2442, so that means that (60036 - 2442) = 57594 entries did not qualify for the position hash.
 
 
 --------
