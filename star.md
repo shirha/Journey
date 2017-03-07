@@ -5,7 +5,7 @@ The Solver is a [breadth-first search](https://en.wikipedia.org/wiki/Breadth-fir
 an A‐star routine is used to trim the positions hash and only keep the layouts that scored the best (lowest). An A‐star routine should
 measure the distance of the current layout to the solution. The Solver uses a simple algorithm.
 * Start with a score of 64.
-* Subtract the face value of every home card (max is 13x4=52).
+* Subtract the face value of every top home card (max is 13x4=52).
 * Subtract 1 for every empty freecell (max = 4)
 * Subtract 1 for every empty column (max = 8)
 * Add 1 for every sequence break in the columns
