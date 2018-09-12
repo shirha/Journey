@@ -1,6 +1,6 @@
 ## Generate All Possible Moves
 
-The `gen()` routine creates all the legal moves for a given layout and the `autoplay()` routines adds the cards that are safe to go home.  Safe autoplay means that you don't move up cards to the foundations if that card may still be needed in the tableau as a spot to park a lower ranked card on. The routine will not move a freecell to another freecell or a whole cascade column to another cascade column. Those moves are a waste of time. The routine also uses [supermoves](http://www.solitairelaboratory.com/fcfaq.html#Supermove).
+The `gen()` routine creates all the legal moves for a given layout and the `autoplay()` routine adds the cards that are safe to go home.  Safe autoplay means that you don't move up cards to the foundations if that card may still be needed in the tableau as a spot to park a lower ranked card on. The routine will not move a freecell to another freecell or a whole cascade column to another cascade column. Those moves are a waste of time. The routine also uses [supermoves](http://www.solitairelaboratory.com/fcfaq.html#Supermove).
 
 ```
 #10913
