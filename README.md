@@ -7,7 +7,7 @@
 * [It All Depends on the Star Routine](star.md)
 * [In Search of the Four Kings](solution.md)
 
-<a href="http://freecell-mobile.appspot.com/"><img src="i/favicon.png" width=16 height=16>&nbsp;Freecell-Mobile</a>
+<a href="http://shirha.github.io/freecell"><img src="i/favicon.png" width=16 height=16>&nbsp;Freecell</a>
 
 ---
 
